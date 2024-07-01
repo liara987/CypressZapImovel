@@ -1,4 +1,4 @@
-name: Cypress Tests - Zap Imoveis Home Page
+name: Cypress Tests - Zap Imóveis Home Page
 
 on:
   push:
