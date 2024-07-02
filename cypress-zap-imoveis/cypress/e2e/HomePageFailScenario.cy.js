@@ -33,7 +33,7 @@ describe("Not searchig for roof top to rent, that allow pets on Zap Imóveis Hom
     cy.visit("/");
   });
 
-  it(`And I type on home input "${inputs.textSearch}"`, { scrollBehavior: false }, () => {
+  it('And I type on home input text', { scrollBehavior: false }, () => {
     searchPlaceByFilter.typeOnHomeInputEndereco(inputs.textSearch);
   });
 

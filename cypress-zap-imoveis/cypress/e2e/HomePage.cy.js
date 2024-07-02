@@ -68,7 +68,7 @@ describe("Searchig for roof top to rent, that allow pets on Zap Imóveis Home Pa
     cy.visit("/");
   });
 
-  it(`And I type on home input "${inputs.cityName}"`, { scrollBehavior: false }, () => {
+  it('And I type on home input text', { scrollBehavior: false }, () => {
     searchPlaceByFilter.typeOnHomeInputEndereco(inputs.cityName);
   });
 
