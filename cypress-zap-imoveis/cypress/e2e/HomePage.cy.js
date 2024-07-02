@@ -37,8 +37,11 @@ class SearchPlaceByHomePage {
   }
 
   checkResultText(text) {
-    this.elements.resultText().should("contain.text", text);
-    cy.get("body").click("topRight");
+    this.elements.resultText().should("contain.text", text);    
+  }
+
+  checkWrongResultText(text) {
+    this.elements.resultText().should("not.contain.text", text);    
   }
 
   clickOnBadgeAcaitaPets() {
@@ -53,7 +56,7 @@ class SearchPlaceByHomePage {
 
 const searchPlaceByFilter = new SearchPlaceByHomePage();
 
-describe("Searchig for places on Zap Imóveis Home Page", () => {
+describe("Searchig for roof top to rent, that allow pets on Zap Imóveis Home Page para alugar na cidade de São Paulo", () => {
   const inputs = {
     cityName: "São Paulo",
     textColor: "rgb(255, 255, 255)",
@@ -104,3 +107,29 @@ describe("Searchig for places on Zap Imóveis Home Page", () => {
     searchPlaceByFilter.checkBadgeActiveAcaitaPets(inputs.backgroundColor, inputs.textColor);
   });
 });
+
+describe("Not searchig for roof top to rent, that allow pets on Zap Imóveis Home Page para alugar na cidade de São Paulo", () => {
+  const inputs = {
+    textSearch: "cobertura para alugar na cidade de São Paulo",    
+  };
+
+  beforeEach(() => {
+    cy.clearAllCookies();
+  });
+
+  it('Given I am on the "Zap Imóveis" page', () => {
+    cy.visit("/");
+  });
+
+  it(`And I type on home input "${inputs.textSearch}"`, { scrollBehavior: false }, () => {
+    searchPlaceByFilter.typeOnHomeInputEndereco(inputs.textSearch);
+  });
+
+  it('When I click on home button "Buscar"', { scrollBehavior: false }, () => {
+    searchPlaceByFilter.clickOnHomeButtonBuscar();
+  });
+
+  it(`Then the text "Coberturas para alugar em São Paulo - SP" should not be visible`, { scrollBehavior: false }, () => {
+    searchPlaceByFilter.checkWrongResultText("Coberturas para alugar em São Paulo - SP");
+  });
+})
