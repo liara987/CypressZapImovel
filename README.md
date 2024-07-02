@@ -1,4 +1,5 @@
 # Case Técnico OLX - Desenvolvimento com foco em Qualidade
+
 [![Cypress Tests - Zap Imóveis Home Page](https://github.com/liara987/CypressZapImovel/actions/workflows/cypress-zap-imoveis.yml/badge.svg)](https://github.com/liara987/CypressZapImovel/actions/workflows/cypress-zap-imoveis.yml)
 
 ## Tecnologias
@@ -44,12 +45,26 @@ Observação: Os testes funcionam apenas quando rodam no **Electron**, caso tent
 
 ## Relatórios
 
-<iframe
-  src="./cypress-zap-imoveis/cypress/reports/mochawesome.html"
-  style="width:100%; height:300px;"
-></iframe>
+### Cenário sucesso
 
-<iframe
-  src="./cypress-zap-imoveis/cypress/reports/mochawesome_001.html"
-  style="width:100%; height:300px;"
-></iframe>
+#### Imagem
+![relatório de sucesso](./cypress-zap-imoveis/reports-screenshots/SuccessScenario.png)
+
+#### Video
+<video width="320" height="240" controls>
+  <source src="cypress-zap-imoveis/cypress/videos/HomePage.cy.js.mp4" type="video/mp4">
+</video>
+
+---
+
+### Cenário falho
+
+#### Imagem
+
+![relatório falho](./cypress-zap-imoveis/reports-screenshots/FailScenario.png)
+
+#### Video
+
+<video width="320" height="240" controls>
+  <source src="cypress-zap-imoveis/cypress/videos/HomePageFailScenario.cy.js.mp4" type="video/mp4">
+</video>
