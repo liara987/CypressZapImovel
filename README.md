@@ -23,6 +23,9 @@ Observação: Os testes funcionam apenas quando rodam no **Electron**, caso tent
 - Click no arquivo **HomePageFailScenario.cy.js** para testar o caminho de falha da pesquisa no site
 - Os testes deven começar a rodar
 
+## Fluxograma
+![imagem do fluxograma](./cypress-zap-imoveis/reports-images/Fluxograma.png)
+
 ## Cenários Sucesso Testado
 
 - [x] Given I am on the **Zap Imóveis** page
@@ -48,12 +51,7 @@ Observação: Os testes funcionam apenas quando rodam no **Electron**, caso tent
 ### Cenário sucesso
 
 #### Imagem
-![relatório de sucesso](./cypress-zap-imoveis/reports-screenshots/SuccessScenario.png)
-
-#### Video
-<video width="320" height="240" controls>
-  <source src="cypress-zap-imoveis/cypress/videos/HomePage.cy.js.mp4" type="video/mp4">
-</video>
+![relatório de sucesso](./cypress-zap-imoveis/reports-images/SuccessScenario.png)
 
 ---
 
@@ -61,10 +59,5 @@ Observação: Os testes funcionam apenas quando rodam no **Electron**, caso tent
 
 #### Imagem
 
-![relatório falho](./cypress-zap-imoveis/reports-screenshots/FailScenario.png)
+![relatório falho](./cypress-zap-imoveis/reports-images/FailScenario.png)
 
-#### Video
-
-<video width="320" height="240" controls>
-  <source src="cypress-zap-imoveis/cypress/videos/HomePageFailScenario.cy.js.mp4" type="video/mp4">
-</video>
