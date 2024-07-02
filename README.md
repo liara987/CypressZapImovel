@@ -8,6 +8,8 @@
 
 ## Como testar
 
+Observação: Os testes funcionam apenas quando rodam no **Electron**, caso tente outro browser pode não iniciar
+
 - Tenha o **git** instalado
 - Clone o repositório ```git clone https://github.com/liara987/CypressZapImovel.git```
 - Acesse a na pasta do projeto no terminal e digite ```cd cypress-zap-imoveis```
@@ -16,8 +18,9 @@
 - Click en **E2E Testing**
 - Selecione o navegador **Electron**
 - Click em **Start E2E Testing in Electron**
-- Então click no arquivo **HomePage.cy.js**
-- Os testes cimeçarão a rodar
+- Click no arquivo **HomePage.cy.js** para testar o caminho de sucesso da pesquisa no site
+- Click no arquivo **HomePageFailScenario.cy.js** para testar o caminho de falha da pesquisa no site
+- Os testes deven começar a rodar
 
 ## Cenários Testado
 
