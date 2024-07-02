@@ -1,4 +1,7 @@
-# Cenários para testar
+# Case Técnico OLX - Desenvolvimento com foco em Qualidade
+[![Cypress Tests - Zap Imóveis Home Page](https://github.com/liara987/CypressZapImovel/actions/workflows/cypress-zap-imoveis.yml/badge.svg)](https://github.com/liara987/CypressZapImovel/actions/workflows/cypress-zap-imoveis.yml)
+
+## Cenários Testado
 
   Background:
     Given I go to the Zap Imóveis page
