@@ -21,7 +21,7 @@ Observação: Os testes funcionam apenas quando rodam no **Electron**, caso tent
 - Click em **Start E2E Testing in Electron**
 - Click no arquivo **HomePage.cy.js** para testar o caminho de sucesso da pesquisa no site
 - Click no arquivo **HomePageFailScenario.cy.js** para testar o caminho de falha da pesquisa no site
-- Os testes deven começar a rodar
+- Os testes devem começar a rodar
 
 ## Fluxograma
 ![imagem do fluxograma](./cypress-zap-imoveis/reports-images/Fluxograma.png)
