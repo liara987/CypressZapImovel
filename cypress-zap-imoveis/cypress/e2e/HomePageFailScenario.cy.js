@@ -22,7 +22,7 @@ const searchPlaceByFilter = new SearchPlaceByHomePage();
 
 describe("Not searchig for roof top to rent, that allow pets on Zap Imóveis Home Page para alugar na cidade de São Paulo", () => {
   const inputs = {
-    textSearch: "cobertura para alugar na cidade de São Paulo",    
+    textSearch: "Cobertura para alugar na cidade de São Paulo",    
   };
 
   beforeEach(() => {
