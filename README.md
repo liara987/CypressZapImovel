@@ -15,7 +15,8 @@ Observação: Os testes foram realizado no browse **Electron** do cypress, caso 
 - Clone o repositório ```git clone https://github.com/liara987/CypressZapImovel.git```
 - Acesse a na pasta do projeto no terminal e digite ```cd cypress-zap-imoveis```
 - Instale as dependencias ```npm i```
-- Rode o comando ```npm run cypress:web```
+- Rode ```npm run cypress:headless``` para ver os testes apenas no terminal
+- Rode o comando ```npm run cypress:web``` para ver os testes no navegador
 - Click en **E2E Testing**
 - Selecione o navegador **Electron**
 - Click em **Start E2E Testing in Electron**
