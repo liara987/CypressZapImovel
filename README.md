@@ -50,11 +50,6 @@ Observação: Os testes funcionam apenas quando rodam no **Electron**, caso tent
 #### Imagem
 ![relatório de sucesso](./cypress-zap-imoveis/reports-screenshots/SuccessScenario.png)
 
-#### Video
-<video width="320" height="240" controls>
-  <source src="cypress-zap-imoveis/cypress/videos/HomePage.cy.js.mp4" type="video/mp4">
-</video>
-
 ---
 
 ### Cenário falho
@@ -62,9 +57,3 @@ Observação: Os testes funcionam apenas quando rodam no **Electron**, caso tent
 #### Imagem
 
 ![relatório falho](./cypress-zap-imoveis/reports-screenshots/FailScenario.png)
-
-#### Video
-
-<video width="320" height="240" controls>
-  <source src="cypress-zap-imoveis/cypress/videos/HomePageFailScenario.cy.js.mp4" type="video/mp4">
-</video>
