@@ -41,3 +41,15 @@ Observação: Os testes funcionam apenas quando rodam no **Electron**, caso tent
 - [x] And I type on home input **Cobertura para alugar na cidade de São Paulo**
 - [x] When I click on home button **Buscar**
 - [x] Then the text **Coberturas para alugar em São Paulo - SP** should **not** be visible
+
+## Relatórios
+
+<iframe
+  src="./cypress-zap-imoveis/cypress/reports/mochawesome.html"
+  style="width:100%; height:300px;"
+></iframe>
+
+<iframe
+  src="./cypress-zap-imoveis/cypress/reports/mochawesome_001.html"
+  style="width:100%; height:300px;"
+></iframe>
