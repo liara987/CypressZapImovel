@@ -37,8 +37,7 @@ class SearchPlaceByHomePage {
   }
 
   checkResultText(text) {
-    this.elements.resultText().should("contain.text", text);
-    cy.get("body").click("topRight");
+    this.elements.resultText().should("contain.text", text);    
   }
 
   clickOnBadgeAcaitaPets() {
@@ -100,7 +99,7 @@ describe("Searchig for roof top to rent, that allow pets on Zap Imóveis Home Pa
     searchPlaceByFilter.clickOnBadgeAcaitaPets();
   });
 
-  it('Then the "Aceita pets" badge should change the background"', { scrollBehavior: false }, () => {
+  it('Then the "Aceita pets" badge should change the background and text color"', { scrollBehavior: false }, () => {
     searchPlaceByFilter.checkBadgeActiveAcaitaPets(inputs.backgroundColor, inputs.textColor);
   });
 });
