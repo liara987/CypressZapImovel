@@ -22,7 +22,7 @@ Observação: Os testes funcionam apenas quando rodam no **Electron**, caso tent
 - Click no arquivo **HomePageFailScenario.cy.js** para testar o caminho de falha da pesquisa no site
 - Os testes deven começar a rodar
 
-## Cenários Testado
+## Cenários Sucesso Testado
 
 - [x] Given I am on the **Zap Imóveis** page
 - [x] And I type on home input **São Paulo**
@@ -31,6 +31,13 @@ Observação: Os testes funcionam apenas quando rodam no **Electron**, caso tent
 - [x] And I click on home dropdown **Tipo de imovel**
 - [x] And I click on home option **Cobertura**
 - [x] When I click on home button **Buscar**
-- [x] Then the text **Coberturas para alugar em São Paulo - SP** should bevisible'
+- [x] Then the text **Coberturas para alugar em São Paulo - SP** should be visible
 - [x] Given I click on **Aceita pets** badge
 - [x] Then the **Aceita pets** badge should change the background
+
+## Cenários Falho Testado
+
+- [x] Given I am on the **Zap Imóveis** page
+- [x] And I type on home input **Cobertura para alugar na cidade de São Paulo**
+- [x] When I click on home button **Buscar**
+- [x] Then the text **Coberturas para alugar em São Paulo - SP** should **not** be visible
