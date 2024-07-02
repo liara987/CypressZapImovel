@@ -8,7 +8,7 @@
 
 ## Como testar
 
-Observação: Os testes funcionam apenas quando rodam no **Electron**, caso tente outro browser pode não iniciar
+Observação: Os testes funcionam apenas quando rodam no **Electron**, caso tente outro browser pode não iniciar os testes
 
 - Tenha o **git** instalado
 - Clone o repositório ```git clone https://github.com/liara987/CypressZapImovel.git```
